@@ -11,6 +11,6 @@ func Sum(numbers []int) int {
 }
 
 func main() {
-	fmt.Println(Sum([]int{1, 2, 3, 4, 5})) // Output: 15
-	fmt.Println(Sum([]int{}))              // Output: 0
+	fmt.Println(Sum([]int{1, 2, 3, 4, 5}))
+	fmt.Println(Sum([]int{}))              
 }
